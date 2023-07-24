@@ -1,6 +1,6 @@
 {
-  "title": "Fernfolio",
-  "image": "src/assets/img/fern-in-hand.jpeg",
-  "image_alt": "Fern in hand",
-  "body": "The super simple portfolio template built with [Eleventy](https://www.11ty.dev/) and [Netlify CMS](https://www.netlifycms.org/)."
+  "title": "Kobus Post",
+  "subtitle": "Software Engineer & co-founder",
+  "images": [{"url": "src/assets/img/kobus2.jpeg", "alt": "Kobus"}, {"url": "src/assets/img/kobus1.jpg", "alt": "Kobus"}],
+  "body": "I am a (co-)founder and engineer with extensive experience in both front-end and back-end development. And a knack for entrepeneurial endeavors in the SaaS space. My sweet spot is working on technology that helps people improve how they work or live. Feel free to send me a message if you want to know more about me or want to collaborate."
 }

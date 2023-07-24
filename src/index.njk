@@ -9,18 +9,23 @@ section: home
   <div class="hero">
     <div class="hero__col">
       <h1 class="hero__title gradient-text">{{ home.title }}</h1>
+      <h2 class="hero__subtitle">{{ home.subtitle }}</h2>
       {% if home.body %}
         <div class="hero__body">{{ home.body | markdown | safe }}</div>
       {% endif %}
     </div>
     <div class="hero__col">
-      {% image
-        home.image,
-        home.image_alt,
-        "(min-width: 1024px) 50vw, 100vw",
-        "hero__image shadow",
-        "eager"
-      %}
+      <div class="hero__image-wrapper">
+        {% for image in home.images %}
+          {% image
+            image.url,
+            image.alt,
+            "(min-width: 1024px) 50vw, 100vw",
+            "hero__image shadow index" + loop.index,
+            "eager"
+          %}
+        {% endfor %}
+      </div>
     </div>
   </div>
 

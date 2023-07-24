@@ -38,7 +38,7 @@
   grid-auto-columns: 1fr;
   grid-template-rows: auto auto;
   column-gap: 70px;
-  max-width: 1100px;
+  max-width: var(--site-width);
   margin: 0 auto;
 
   @media (min-width: 1024px) {
@@ -54,10 +54,25 @@
   justify-content: center;
 }
 
+.hero__image-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
 .hero__image {
-  max-width: 300px;
+  max-width: 250px;
   border-radius: var(--border-radius);
   transition: filter 0.4s ease-out;
+
+  &.index1{
+    transform: rotate(-2deg);
+  }
+
+  &.index2 {
+    transform: rotate(6deg);
+    margin-left: -30px;
+    margin-top: 10px;
+  }
 
   @media (min-width: 1024px) {
     margin-bottom: 0;
@@ -71,10 +86,15 @@
   }
 }
 
+.hero__subtitle {
+  margin-top: 0.2em;
+  margin-bottom: 0.6em;
+}
+
 .hero__body {
   margin-top: 0;
   margin-bottom: 1rem;
-  font-size: 1.2em;
+  font-size: 1.1em;
 
   > *:first-child {
     margin-top: 0;
