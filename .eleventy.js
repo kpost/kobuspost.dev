@@ -1,6 +1,7 @@
 const eleventyNavigationPlugin = require('@11ty/eleventy-navigation');
 const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 const imageShortcode = require('./src/_11ty/shortcodes/image-shortcode');
+const iconImage = require('./src/_11ty/shortcodes/icon-image');
 const markdownLibrary = require('./src/_11ty/libraries/markdown-library');
 const minifyHtml = require('./src/_11ty/utils/minify-html');
 const markdownFilter = require('./src/_11ty/filters/markdown-filter');
@@ -21,6 +22,7 @@ module.exports = function (eleventyConfig) {
 
   // Shortcodes
   eleventyConfig.addNunjucksAsyncShortcode('image', imageShortcode);
+  eleventyConfig.addNunjucksAsyncShortcode('iconimage', iconImage);
 
   // Libraries
   eleventyConfig.setLibrary('md', markdownLibrary);
@@ -35,7 +37,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addTransform('htmlmin', minifyHtml);
 
   // Don't process folders with static assets
-  eleventyConfig.addPassthroughCopy('./src/favicon.ico');
+  // eleventyConfig.addPassthroughCopy('./src/favicon.ico');
   eleventyConfig.addPassthroughCopy('./src/admin');
   eleventyConfig.addPassthroughCopy('./src/assets/img');
 

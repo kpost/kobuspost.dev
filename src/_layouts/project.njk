@@ -3,11 +3,14 @@ layout: base.njk
 section: project
 ---
 <div class="page-container">
-  <h1>
+  <h1 class="project-title">
     {% if emoji %}
       <span class="project-card__emoji">{{ emoji }}</span>
+    {% elif image %}
+      {% iconimage image, title, "project-icon" %}
     {% endif %}
-    {{title}}</h1>
+    <span>{{title}}</span>
+  </h1>
   <hr/>
   {{ layoutContent | safe }}
   <nav>

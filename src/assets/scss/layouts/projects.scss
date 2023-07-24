@@ -57,6 +57,25 @@
   }
 }
 
-.project-card__emoji {
-  margin-right: 8px;
+.project-title {
+  display: flex;
+  // flex-direction: row;
+  align-items: center;
+
+  span {
+    flex-grow: 1;
+  }
+
+  img.project-icon {
+    width:50px;
+    flex-grow:0;
+    margin: 0;
+    margin-right: 20px;
+  }
+
+  .project-card__emoji {
+    flex-grow:0;
+    margin: 0;
+    margin-right: 20px;
+  }
 }
