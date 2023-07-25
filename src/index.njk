@@ -13,6 +13,15 @@ section: home
       {% if home.body %}
         <div class="hero__body">{{ home.body | markdown | safe }}</div>
       {% endif %}
+
+      <div class="hero__social-buttons">
+        <a class="hero__social-button" href="https://github.com/kpost" target="_blank">
+          {{ "src/assets/img/github.svg" | svg | safe }}
+        </a>
+        <a class="hero__social-button" href="https://www.linkedin.com/in/kobuspost" target="_blank">
+          {{ "src/assets/img/linkedin.svg" | svg | safe }}
+        </a>
+      </div>
     </div>
     <div class="hero__col">
       <div class="hero__image-wrapper">

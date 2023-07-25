@@ -97,6 +97,33 @@
   margin-bottom: 0.6em;
 }
 
+.hero__social-buttons {
+  display: flex;
+}
+
+.hero__social-button {
+  width:28px;
+  height:28px;
+  margin: 0 5px;
+
+  &:first-child {
+    margin-left: 0;
+  }
+
+  &:hover {
+    color: var(--color-secondary);
+    border: none;
+  }
+
+  .dark &{
+    color: var(--color-text-dark);
+
+    &:hover {
+      color: var(--color-title-dark);
+    }
+  }
+}
+
 .hero__body {
   margin-top: 0;
   margin-bottom: 1rem;
