@@ -99,6 +99,13 @@
 
 .hero__social-buttons {
   display: flex;
+  margin-bottom: 40px;
+  justify-content: center;
+
+  @media (min-width: 1024px) {
+    justify-content: flex-start;
+    margin-bottom: 0;
+  }
 }
 
 .hero__social-button {
