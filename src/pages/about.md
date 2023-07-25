@@ -34,3 +34,11 @@ P﻿rotonmail
 
 **A﻿PI testing**\
 P﻿ostman
+
+### O﻿ther
+
+**B﻿ased in**\
+T﻿he Netherlands
+
+**Registration # D﻿utch Chamber of Commerce**\
+61847097
