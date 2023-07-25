@@ -1,31 +1,36 @@
 ---
-title: About Me
+title: About
 subtitle: ""
-metaDescription: This page is all about me
-date: 2017-01-01T00:00:00.000Z
+metaDescription: About Kobus
+date: 2023-07-25T20:11:09.549Z
 permalink: /about/index.html
 eleventyNavigation:
   key: About
   order: 1
 ---
+E﻿ver since I created my first HTML page in Notepad, and published it on Geocities, I have been in awe about what you can achieve with programming. This experience has always driven me to become a better engineer. Besides that I have always had an entrepeneurial side. In 2014 I started [Plate](https://www.getplate.com) with a few co-founders and we bootstrapped it from the ground up. Plate started as a CMS aimed at media agencies that weren't necessarily technical, but had clients that asked them for websites. For example design agencies, photographers, etc. The goal was to create the most low-tech solution possible, while still being able to create content-rich sites. We achieved this by focusing on the content model rather than the design of the site. Over the years we gradually moved to a multisite content solution. After that I decided in 2023 it was time for me to move on to other endeavors. I have been freelancing ever since.
 
-### What is Fernfolio?
-An [Eleventy](https://www.11ty.io/) theme designed to simplify the process of creating a beautiful portfolio and blog. Tightly integrated with [Netlify CMS](https://www.netlifycms.org/) for flexible, Git-powered content management.
+Today, I have more than 11 years experience and knowledge as an engineer, and I’m strongly motivated to work on the most challenging applications.
 
-### Why create this?
+### U﻿ses
 
-**Reason #1:** I wanted a portfolio that was simple, fast, accessible, and integrated with a git-powered cms. Existing templates didn't perfectly fit my needs, so I decided to build my own template.
+**W﻿orkstation** \
+2022 14" Macbook Pro M1 with 32GB RAM. Best daily driver I have ever used.
 
-**Reason #2:** I wanted to learn more about [Eleventy](https://www.11ty.dev/) and static site generators in general. Building Fernfolio was a good excuse to dive deeper on that topic.
+**IDE/Editor**\
+Visual Studio Code
 
-### How do I edit content?
-Once your site is deployed and configured, add `/admin` to the end of the url (not using localhost) and hit refresh. From there, you should be able to login and see see the content management dashboard. You should be able to change most content here (e.g. page text, images, logo, articles, projects, etc.).
+**B﻿rowser**\
+B﻿rave
 
-### Further customizations
-If you want to take your customizations further, you will need to modify the project source code. Some customizations, like changing theme colors and fonts, are straightforward (those can be modified in the `variables.scss` file). Other customizations will require more in-depth solutions.
+**T﻿erminal**\
+i﻿Term2 with zsh
 
-If you get stuck or just have a question, feel free to create a [Github issue](https://github.com/TylerMRoderick/fernfolio-11ty-template/issues) and I will try to point you in the right direction.
+**D﻿atabase GUI**\
+T﻿ablePlus
 
-Thanks for checking out Fernfolio 👋 - [Tyler M. Roderick](https://www.tylerroderick.com/)
+**M﻿ail**\
+P﻿rotonmail
 
-![Fern in Hand](/src/assets/img/fern-forest.jpeg "Fern in Hand")
+**A﻿PI testing**\
+P﻿ostman
