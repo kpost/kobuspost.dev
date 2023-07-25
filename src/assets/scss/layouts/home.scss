@@ -59,8 +59,9 @@
   justify-content: center;
 }
 
+
 .hero__image {
-  max-width: 250px;
+  max-width:150px;
   border-radius: var(--border-radius);
   transition: filter 0.4s ease-out;
 
@@ -76,6 +77,7 @@
 
   @media (min-width: 1024px) {
     margin-bottom: 0;
+    max-width: 250px;
   }
 }
 
