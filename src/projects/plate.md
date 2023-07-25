@@ -1,7 +1,7 @@
 ---
 title: Plate
 image: "src/assets/img/logos/plate.png"
-metaDescription: This is a sample meta description. If one is not present in your page/project's front matter, the default metadata.desciption will be used instead.
+metaDescription: In 2014 I co-founded Plate and built it into the multisite cms it is today.
 date: 2014-01-01
 summary: In 2014 I co-founded Plate and built it into the multisite cms it is today.
 ---

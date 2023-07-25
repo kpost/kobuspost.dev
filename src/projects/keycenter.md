@@ -1,7 +1,7 @@
 ---
 title: keycenter.nl
 emoji: 🎮
-metaDescription: This is a sample meta description. If one is not present in your page/project's front matter, the default metadata.desciption will be used instead.
+metaDescription: Fully automated webshop selling software keycodes.
 date: 2018-01-01
 summary: Fully automated webshop selling software keycodes.
 ---

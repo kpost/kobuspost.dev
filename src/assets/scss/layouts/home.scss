@@ -73,6 +73,10 @@
     transform: rotate(6deg);
     margin-left: -30px;
     margin-top: 10px;
+
+    .dark & {
+      filter: brightness(85%);
+    }
   }
 
   @media (min-width: 1024px) {
