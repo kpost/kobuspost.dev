@@ -42,3 +42,6 @@ T﻿he Netherlands
 
 **Registration # D﻿utch Chamber of Commerce**\
 61847097
+
+**T&C**\
+[C﻿lick here for a copy of my terms and conditions (Dutch)](https://drive.proton.me/urls/QXPADT6KGM#3akUFJJMP88A)
